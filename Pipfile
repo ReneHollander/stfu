@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.11"
+
+[packages]
+webvtt-py = "*"
+fuzzysearch = "*"
+textblob = "*"
+alive-progress = "*"
+tqdm = "*"
+matplotlib = "*"
+openai-whisper = "*"
+yt-dlp = "*"
+ffmpeg-normalize = "*"
+
+[scripts]
+extract_stfu_occurances = "python extract_stfu_occurances.py"
+improve_stfu_occurances = "python improve_stfu_occurances.py"
